@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rbG-fg-V1f">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="ngU-Df-E0N">
+            <objects>
+                <viewController id="5zO-69-pQy" customClass="Tela02VC" customModule="DesafioTabBarCurso" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xHT-XR-wz0">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lng-mc-c6V"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="phone" catalog="system" id="S2P-DK-1g1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCi-h2-7Wh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="425"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Mb0-Kl-rOd">
+            <objects>
+                <viewController id="bqL-dS-8Cg" customClass="Tela03VC" customModule="DesafioTabBarCurso" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wt8-r4-PSn">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ki2-hU-N5s"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="trash" catalog="system" id="m9n-Av-Swt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-1e-lb2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="45"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="LKu-2J-s0W">
+            <objects>
+                <viewController id="dtY-ng-oGL" customClass="Tela01VC" customModule="DesafioTabBarCurso" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1qD-8X-rpZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nUI-ut-YMT">
+                                <rect key="frame" x="120" y="82.999999999999986" width="150" height="148.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ROO-9z-jZ4"/>
+                                    <constraint firstAttribute="width" constant="150" id="rP9-QP-cdW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-RA-2Pm">
+                                <rect key="frame" x="143.66666666666666" y="257" width="103" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Editar foto"/>
+                                <connections>
+                                    <action selector="tappedEditPictureButton:" destination="dtY-ng-oGL" eventType="touchUpInside" id="F4q-Bz-EcQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSs-mj-bTl">
+                                <rect key="frame" x="20" y="312" width="350" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bqG-yq-mkr">
+                                <rect key="frame" x="20" y="353" width="350" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cd-65-cGR">
+                                <rect key="frame" x="147.33333333333334" y="412" width="95.333333333333343" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Adicionar"/>
+                                <connections>
+                                    <action selector="tappedAddButton:" destination="dtY-ng-oGL" eventType="touchUpInside" id="XhV-c7-fqp"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Hjb-r4-Xgf">
+                                <rect key="frame" x="0.0" y="467" width="390" height="294"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QMR-9r-VrQ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nUI-ut-YMT" firstAttribute="top" secondItem="QMR-9r-VrQ" secondAttribute="top" constant="35" id="0Gh-2x-Wwx"/>
+                            <constraint firstItem="VSs-mj-bTl" firstAttribute="leading" secondItem="QMR-9r-VrQ" secondAttribute="leading" constant="20" id="3Mv-V4-hy4"/>
+                            <constraint firstItem="IW2-RA-2Pm" firstAttribute="centerX" secondItem="1qD-8X-rpZ" secondAttribute="centerX" id="8Id-bt-0R3"/>
+                            <constraint firstItem="bqG-yq-mkr" firstAttribute="leading" secondItem="QMR-9r-VrQ" secondAttribute="leading" constant="20" id="C03-1X-cGn"/>
+                            <constraint firstItem="5cd-65-cGR" firstAttribute="centerX" secondItem="1qD-8X-rpZ" secondAttribute="centerX" id="CRT-RO-vhZ"/>
+                            <constraint firstItem="5cd-65-cGR" firstAttribute="top" secondItem="bqG-yq-mkr" secondAttribute="bottom" constant="25" id="LDm-Gt-0Kp"/>
+                            <constraint firstItem="QMR-9r-VrQ" firstAttribute="trailing" secondItem="Hjb-r4-Xgf" secondAttribute="trailing" id="LRe-lI-lLV"/>
+                            <constraint firstItem="VSs-mj-bTl" firstAttribute="top" secondItem="IW2-RA-2Pm" secondAttribute="bottom" constant="20" id="Lhb-Ee-qjQ"/>
+                            <constraint firstItem="bqG-yq-mkr" firstAttribute="top" secondItem="VSs-mj-bTl" secondAttribute="bottom" constant="20" id="WR2-57-JKr"/>
+                            <constraint firstItem="QMR-9r-VrQ" firstAttribute="bottom" secondItem="Hjb-r4-Xgf" secondAttribute="bottom" id="Xra-kD-Xrt"/>
+                            <constraint firstItem="nUI-ut-YMT" firstAttribute="centerX" secondItem="1qD-8X-rpZ" secondAttribute="centerX" id="bjG-fJ-a7O"/>
+                            <constraint firstItem="Hjb-r4-Xgf" firstAttribute="top" secondItem="5cd-65-cGR" secondAttribute="bottom" constant="20" id="cpg-dy-Unw"/>
+                            <constraint firstItem="IW2-RA-2Pm" firstAttribute="top" secondItem="nUI-ut-YMT" secondAttribute="bottom" constant="25" id="mj5-38-hEf"/>
+                            <constraint firstItem="QMR-9r-VrQ" firstAttribute="trailing" secondItem="VSs-mj-bTl" secondAttribute="trailing" constant="20" id="pUx-ue-sCJ"/>
+                            <constraint firstItem="QMR-9r-VrQ" firstAttribute="trailing" secondItem="bqG-yq-mkr" secondAttribute="trailing" constant="20" id="zcf-fI-Pva"/>
+                            <constraint firstItem="Hjb-r4-Xgf" firstAttribute="leading" secondItem="QMR-9r-VrQ" secondAttribute="leading" id="zkp-RU-Ra0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="person" catalog="system" id="udc-Wb-jrG"/>
+                    <connections>
+                        <outlet property="addButton" destination="5cd-65-cGR" id="ktX-Jx-1id"/>
+                        <outlet property="editPictureButton" destination="IW2-RA-2Pm" id="jVY-Id-aut"/>
+                        <outlet property="nameLabel" destination="VSs-mj-bTl" id="SQp-Xz-C5o"/>
+                        <outlet property="nameTextField" destination="bqG-yq-mkr" id="mnv-u8-b5x"/>
+                        <outlet property="profileImageView" destination="nUI-ut-YMT" id="610-He-SxE"/>
+                        <outlet property="tableView" destination="Hjb-r4-Xgf" id="k5L-fd-lEA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zu8-aU-sGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78" y="-261"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MhL-XZ-HiV">
+            <objects>
+                <tabBarController id="rbG-fg-V1f" customClass="TabBarController" customModule="DesafioTabBarCurso" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vHk-LE-d8d">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dtY-ng-oGL" kind="relationship" relationship="viewControllers" id="FnD-tF-43x"/>
+                        <segue destination="5zO-69-pQy" kind="relationship" relationship="viewControllers" id="vAY-7i-SRp"/>
+                        <segue destination="bqL-dS-8Cg" kind="relationship" relationship="viewControllers" id="G2c-Sv-eBW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FnL-CJ-avB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-829" y="42"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="trash" catalog="system" width="117" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
